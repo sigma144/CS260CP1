@@ -1,0 +1,191 @@
+img
+{
+max-width: 100%;
+}
+
+#home {
+  background: url("../images/homepage.jpg") no-repeat;
+  background-size: 100%
+}
+
+.review
+{
+margin-left: 25%;
+margin-right: 25%;
+font-family: Helvetica, sans-serif;
+font-size: 24px;
+color: #888;
+}
+
+form
+{
+margin-left: 35%;
+margin-right: 35%;
+font-family: Helvetica, sans-serif;
+font-size: 24px;
+}
+
+label
+{
+width: 100%;
+font-size: 20px;
+
+}
+
+input
+{
+width: 100%;
+}
+
+p
+{
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+}
+
+h1 
+{
+color: red;
+text-align: center;
+font-family: Garamond, serif;
+font-style: italic;
+}
+
+h2
+{
+color: red;
+text-align: center;
+font-size: 40px;
+font-family: Garamond, serif;
+font-style: italic;
+}
+
+h3
+{
+color: red;
+text-align: center;
+}
+
+.button {
+    background-color: deeppink;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: Garamond, sans-serif;
+    font-style: bold;
+    margin: auto;
+    max-width: 30%;
+}
+
+.create {
+    text-align: center;
+}
+
+ul {
+color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: purple;*/
+    
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-family: Garamond, sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    
+}
+
+nav li a:hover {
+    background-color: lavender;
+}
+
+.active {
+    background-color: pink;
+}
+
+.menu
+{
+  background-color: red;
+}
+
+section {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+aside {
+ padding-right: 50px;
+}
+
+article {
+ padding-right: 100px;
+}
+
+.photos {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mainpage {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.profile {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 2;
+}
+
+.quote {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.header {
+   display: grid;
+   grid-template-columns: 1fr 1fr 4fr;
+   grid-column-gap: 50px;
+   background-color: white;
+   width: 100%
+   float: left;
+   text-align: center;
+}
+
+.footer {
+   width: 100%;
+   text-align: center;
+   color: black;
+}
