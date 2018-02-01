@@ -3,9 +3,14 @@ img
 max-width: 100%;
 }
 
-#home {
-  background: url("../images/homepage.jpg") no-repeat;
+#setbg {
+  background: url("../images/background.png") no-repeat;
   background-size: 100%
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .review
@@ -19,22 +24,24 @@ color: #888;
 
 form
 {
-margin-left: 35%;
-margin-right: 35%;
+margin-left: 25%;
+margin-right: 25%;
 font-family: Helvetica, sans-serif;
 font-size: 24px;
 }
 
-label
-{
+label {
 width: 100%;
 font-size: 20px;
 
 }
 
-input
-{
+input {
 width: 100%;
+}
+
+#inputSelect {
+width: 20px;
 }
 
 p
@@ -55,7 +62,7 @@ h2
 {
 color: red;
 text-align: center;
-font-size: 40px;
+font-size: 32px;
 font-family: Garamond, serif;
 font-style: italic;
 }
@@ -126,19 +133,6 @@ nav li a:hover {
   background-color: red;
 }
 
-section {
- display: grid;
- grid-template-columns: 1fr 1fr;
-}
-
-aside {
- padding-right: 50px;
-}
-
-article {
- padding-right: 100px;
-}
-
 .photos {
   display: grid;
   max-width: 100%;
@@ -160,13 +154,16 @@ article {
 }
 
 .profile {
+  background-color: white;
   border: 2px solid red;
   border-radius: 5px;
   padding: 20px;
   flex: 2;
+  float: left;
 }
 
 .quote {
+  background-color: white;
   border: 2px solid blue;
   border-radius: 5px;
   padding: 20px;
@@ -176,8 +173,7 @@ article {
 
 .header {
    display: grid;
-   grid-template-columns: 1fr 1fr 4fr;
-   grid-column-gap: 50px;
+   grid-template-columns: 1fr 3fr 1fr;
    background-color: white;
    width: 100%
    float: left;
@@ -185,6 +181,7 @@ article {
 }
 
 .footer {
+   margin-top: 100px;
    width: 100%;
    text-align: center;
    color: black;
