@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<title>Create Account</title>
@@ -11,7 +12,7 @@
 		</div>
 		<h1>New Account</h1>
 		<p>
-			<form action="email.html"
+			<form action="email.html" id="create"
 				  method="POST">
 				<fieldset>
 					<legend>Personal Info:</legend>
@@ -35,10 +36,10 @@
 					<input type="tel" name="phoneNumber">
 					</p>
 					<label>City:
-					<input type="text" name="lastName">
+					<input type="text" name="city">
 					</p>
 					<label>State:
-					<input type="text" name="lastName">
+					<input type="text" name="state">
 					</p>
 				</fieldset>
 				<fieldset>
@@ -51,32 +52,39 @@
 					</p>
 				</fieldset>
 				<fieldset>
+					<legend>About Me:</legend>
+					<textarea form="create" name="Text1" cols="84" rows="12"></textarea>
+				</fieldset>
+				<fieldset>
 					<legend>Your Interests</legend>
-					<input type="checkbox" id="inputSelect" name="interest" value="int1">Int1
-					<input type="checkbox" id="inputSelect" name="interest" value="int2">Int2
-					<input type="checkbox" id="inputSelect" name="interest" value="int3">Int3
-					<input type="checkbox" id="inputSelect" name="interest" value="int4">Int4
-					<input type="checkbox" id="inputSelect" name="interest" value="int5">Int5
-					<input type="checkbox" id="inputSelect" name="interest" value="int6">Int6
-					<input type="checkbox" id="inputSelect" name="interest" value="int7">Int7
-					<input type="checkbox" id="inputSelect" name="interest" value="int8">Int8
-					<br>
-					<input type="checkbox" id="inputSelect" name="interest" value="int9">Int9
-					<input type="checkbox" id="inputSelect" name="interest" value="int10">Int10
-					<input type="checkbox" id="inputSelect" name="interest" value="int11">Int11
-					<input type="checkbox" id="inputSelect" name="interest" value="int12">Int12
-					<input type="checkbox" id="inputSelect" name="interest" value="int13">Int13
-					<input type="checkbox" id="inputSelect" name="interest" value="int14">Int14
-					<input type="checkbox" id="inputSelect" name="interest" value="int15">Int15
-					<input type="checkbox" id="inputSelect" name="interest" value="int16">Int16
-					<input class="button" type="submit" value="Register!">
+					<div id="checkField">
+						<input type="checkbox" id="inputSelect" name="interest" value="int1">Art
+						<input type="checkbox" id="inputSelect" name="interest" value="int2">Charity
+						<input type="checkbox" id="inputSelect" name="interest" value="int3">Dance
+						<input type="checkbox" id="inputSelect" name="interest" value="int4">Exercise
+						<input type="checkbox" id="inputSelect" name="interest" value="int5">Family
+						<input type="checkbox" id="inputSelect" name="interest" value="int6">Food
+						<input type="checkbox" id="inputSelect" name="interest" value="int7">Learning
+						<input type="checkbox" id="inputSelect" name="interest" value="int7">Movies
+						<input type="checkbox" id="inputSelect" name="interest" value="int7">Music
+						<input type="checkbox" id="inputSelect" name="interest" value="int10">Outdoors
+						<input type="checkbox" id="inputSelect" name="interest" value="int8">Photography
+						<input type="checkbox" id="inputSelect" name="interest" value="int9">Politics
+						<input type="checkbox" id="inputSelect" name="interest" value="int10">Reading
+						<input type="checkbox" id="inputSelect" name="interest" value="int11">Religion
+						<input type="checkbox" id="inputSelect" name="interest" value="int12">Sports
+						<input type="checkbox" id="inputSelect" name="interest" value="int13">Technology
+						<input type="checkbox" id="inputSelect" name="interest" value="int13">Travel
+						<input type="checkbox" id="inputSelect" name="interest" value="int14">Video Games
+						<br>
+					</div>
 				</fieldset>
 			</form>
+			<a class="button" href="email.html" style="margin-left: 45%;">Register!</a>
 		</p>
 		<div class="footer">
 		    <p>GitHub repository: </p>
-		    <a href="https://github.com/BYU-CS260-Winter-2018/lab-1-sigma144">
-		    https://github.com/BYU-CS260-Winter-2018/lab-1-sigma144</a>
+		    <a href="https://github.com/sigma144/CS260CP1.git">https://github.com/sigma144/CS260CP1.git</a>
 		</div>
 	</body>
 </html>

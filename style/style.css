@@ -22,13 +22,17 @@ font-size: 24px;
 color: #888;
 }
 
-form
-{
+form {
 margin-left: 25%;
 margin-right: 25%;
-margin-bottom: 10%;
+margin-bottom: 8%;
 font-family: Helvetica, sans-serif;
 font-size: 24px;
+}
+
+#checkField {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr 10fr 1fr 10fr;
 }
 
 label {
@@ -70,6 +74,14 @@ h3
 {
 color: black;
 text-align: center;
+}
+
+h4
+{
+color: red;
+text-align: center;
+font-size: 16px;
+font-family: Garamond, serif;
 }
 
 .button {
