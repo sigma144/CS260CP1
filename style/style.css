@@ -26,6 +26,7 @@ form
 {
 margin-left: 25%;
 margin-right: 25%;
+margin-bottom: 10%;
 font-family: Helvetica, sans-serif;
 font-size: 24px;
 }
@@ -52,29 +53,27 @@ font-size: 18px;
 
 h1 
 {
-color: red;
+color: black;
 text-align: center;
 font-family: Garamond, serif;
-font-style: italic;
 }
 
 h2
 {
-color: red;
+color: black;
 text-align: center;
 font-size: 32px;
 font-family: Garamond, serif;
-font-style: italic;
 }
 
 h3
 {
-color: red;
+color: black;
 text-align: center;
 }
 
 .button {
-    background-color: deeppink;
+    background-color: black;
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
@@ -162,6 +161,11 @@ nav li a:hover {
   float: left;
 }
 
+.pheader {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
 .quote {
   background-color: white;
   border: 2px solid blue;
@@ -173,10 +177,8 @@ nav li a:hover {
 
 .header {
    display: grid;
-   grid-template-columns: 1fr 3fr 1fr;
+   grid-template-columns: 1fr 4fr;
    background-color: white;
-   width: 100%
-   float: left;
    text-align: center;
 }
 
